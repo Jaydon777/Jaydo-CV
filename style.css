@@ -65,6 +65,12 @@ html, body {
 
 }
 
+@media screen and (max-width: 505px) {
+  .profilepic {
+    height: 350px;
+  }
+}
+
 .tocenter {
   display: flex;
   align-items: center;
@@ -148,6 +154,13 @@ html, body {
   padding-bottom: 80px;
 }
 
+.hob{
+  max-width: 100%;
+  object-fit: contain;
+  /* justify-content: center; */
+  text-align: center;
+
+}
 
 
 .hobtxt {
@@ -197,11 +210,6 @@ html, body {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 70px;
 
-}
-/* 4th page */
-.Contact {
-  padding-top: 80px;
-  padding-bottom: 180px;
 }
 
 .eft {
@@ -254,6 +262,19 @@ html, body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+/* 4th page */
+.contacttxt{
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Contact {
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
 
 .fa-at {
   color: #ff0000;
@@ -265,10 +286,6 @@ html, body {
 
 .fa-envelope:hover {
   color: rgb(255, 255, 255);
-}
-
-.mid {
-  transform: translateY(-50%);
 }
 
 .fa-github{
@@ -291,6 +308,7 @@ html, body {
 .fa-twitter:hover{
   color: #ffffff;
 }
+
 .btn {
   display: inline-block;
   width: 90px;
@@ -360,7 +378,8 @@ html, body {
 
 /* FOOTER */
 .btn1{
-  background: transparent;
+  background: none;
+  border: none;
 }
 
 .end {
